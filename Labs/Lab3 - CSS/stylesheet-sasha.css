@@ -66,6 +66,7 @@ header, footer {
 header {
     display: inline-block;
     position: fixed;
+    clear: both;
 }
 
 footer {
@@ -78,6 +79,7 @@ nav {
     width: 50%;
     margin-left: 25%;
     position: fixed;
+    clear: both;
 }
 
 img {
