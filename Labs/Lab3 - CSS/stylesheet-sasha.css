@@ -65,6 +65,7 @@ header, footer {
 
 header {
     display: inline-block;
+    position: fixed;
 }
 
 footer {
@@ -76,6 +77,7 @@ footer {
 nav {
     width: 50%;
     margin-left: 25%;
+    position: fixed;
 }
 
 img {
@@ -101,7 +103,6 @@ a {
 }
 
 #site-title {
-    position: static;
     float: left;
     width: 25%;
     text-align: center;
