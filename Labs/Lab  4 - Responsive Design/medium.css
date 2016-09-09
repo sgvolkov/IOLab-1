@@ -1,1 +1,21 @@
 /*Your tablet targeted CSS should go in this file*/
+
+
+.project-detail{
+    padding: 10%;
+    display: inline;
+    text-align: left;
+}
+
+img {
+    width: 40%;
+    padding-right: 4%;
+    padding-left: 0%;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    float: left;
+}
+
+body{
+    margin: 4%;
+}
