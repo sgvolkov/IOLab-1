@@ -1,0 +1,49 @@
+<!--
+1. User sees labeled ‘to-do’ and ‘completed items’ lists, which are empty upon page load. The lists are visually distinct from each other.
+2. User can add one ‘to-do’ item at a time using a text input field and an ‘add to list’ button.
+3. Each newly-added ‘to-do’ item appears at the top of the ‘to-do’ list (not the bottom).
+4. User can click a button within each ‘to-do’ item to mark it as complete, at which point:
+a. The ‘to-do’ item disappears from the ‘to-do’ list
+b. The ‘to-do’ item appears at the top of the ‘completed items’ list.
+c. Items on the ‘completed items’ list should be styled differently than those on the ‘to-do’ list as an additional visual indication of their completion.
+5. User can click a button within each ‘complete’ item to ‘unmark’ it as complete, at which point:
+a. The ‘complete’ item disappears from the ‘completed items’ list.
+b. The ‘complete’ item appears at the top of the ‘to-do’ list with the same styling as the other ‘to-do’ list items.
+6. Items on each list remain there until the user marks or ‘unmarks’ them.
+7. Your site has a title and intuitive labeling or instructions on how to use it.
+8. You can use only jQuery and JavaScript – no additional plugins/libraries.
+9. Your JS and CSS code is separate from your HTML (i.e., there should be no inline CSS styling or JavaScript within your HTML file).
+10. All of your JavaScript is commented appropriately.
+11. Your code is clean and concise (minimal repetition and unused code)-->
+
+<html>
+<head>
+
+    <title> Homework4 Javascript and jQuery </title>
+    <link rel="stylesheet" href="soundcloud_style.css">
+    <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="https://stratus.soundcloud.com/stratus.js"></script>
+
+</head>
+    <body>
+        <!-- adding a title and instructive text -->
+        <header>
+            <h1 id="site-title">Sasha's SoundCloud Playlist!</h1>
+            <p>To use this site, search SoundCloud by typing in a keyword and hitting 'search'. <br>The top 20 songs will populate below. You can click 'play' to listen to one.<br>Like one? Click 'Move me to playlist!'. Moved it too soon? Hit 'Remove from playlist'.</p>
+            <!-- create input tag for user input -->
+
+            <input id="todo-item-input">
+             <!-- button takes input and adds a new element with content to 'list_do' -->
+            <button id="new-item">Search</button>
+           
+
+            <!-- ability to move items between list_todo and list_completed -->
+            <h2 id="to-do"> Search Results</h2>
+            <div id="list_todo"> </div>
+            <h2 id="playlist"> Playlist</h2>
+            <div id="list_completed"> </div>
+            
+
+            <script type="text/javascript" src="startercode_HW4_skeleton.js"> </script>
+    </body>
+</html>
